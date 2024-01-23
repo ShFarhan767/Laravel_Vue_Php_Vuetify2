@@ -1,0 +1,19 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/vuejs_code_split/active@shop@list.js": "/js/vuejs_code_split/active@shop@list.js",
+    "/js/vuejs_code_split/admin-menu-edit.js": "/js/vuejs_code_split/admin-menu-edit.js",
+    "/js/vuejs_code_split/adminReportShopList.js": "/js/vuejs_code_split/adminReportShopList.js",
+    "/js/vuejs_code_split/billing-new-shop.js": "/js/vuejs_code_split/billing-new-shop.js",
+    "/js/vuejs_code_split/cancel-shop.js": "/js/vuejs_code_split/cancel-shop.js",
+    "/js/vuejs_code_split/cancelbillingshop.js": "/js/vuejs_code_split/cancelbillingshop.js",
+    "/js/vuejs_code_split/delivered-shop.js": "/js/vuejs_code_split/delivered-shop.js",
+    "/js/vuejs_code_split/deliveredbillingshop.js": "/js/vuejs_code_split/deliveredbillingshop.js",
+    "/js/vuejs_code_split/formDesign.js": "/js/vuejs_code_split/formDesign.js",
+    "/js/vuejs_code_split/informatiom-shop-seed.js": "/js/vuejs_code_split/informatiom-shop-seed.js",
+    "/js/vuejs_code_split/information-need-shop.js": "/js/vuejs_code_split/information-need-shop.js",
+    "/js/vuejs_code_split/new-shop.js": "/js/vuejs_code_split/new-shop.js",
+    "/js/vuejs_code_split/pending-billing-shop.js": "/js/vuejs_code_split/pending-billing-shop.js",
+    "/js/vuejs_code_split/pending-shop.js": "/js/vuejs_code_split/pending-shop.js",
+    "/js/vuejs_code_split/verified-shop.js": "/js/vuejs_code_split/verified-shop.js"
+}
