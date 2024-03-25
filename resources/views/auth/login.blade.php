@@ -1,11 +1,11 @@
-@extends('layouts.app')
+<!-- @extends('layouts.app')
 
-@section('content')
+@section('content') -->
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
 			<div class="card-header">
-				<h3> Login </h3>
+				<h3> Login <span>Here</span></h3>
 				<div class="d-flex justify-content-end social_icon">
                 <img src="{{ asset('dashboard/assets/images/logo.png') }}" style="width:100%;background:white;margin-top:20px;padding:10px;border-radius:10px;">
 				

@@ -196,5 +196,36 @@ Route::get('getLoginId','UserInfoController@getLoginId');
 // ------ / admin configuration
 // ----------------------------
 
+
+// ===== unitech 
+
+Route::resource('/menuItems','MenuItemsController');
+
+Route::resource('/navLogo','NavLogoController');
+
+Route::resource('/slider','SliderController');
+
+Route::resource('/serviceHeading','ServiceHeadingController');
+
+Route::resource('/serviceBox','ServiceBoxController');
+
+Route::resource('/blogCard','BlogCardController');
+
+Route::resource('/addressDetails','AddressDetailsController');
+
+Route::resource('/galleryCard','GalleryCardController');
+
+Route::resource('/productCards','ProductCardsController');
+
+Route::resource('/serviceInfo','ServiceInfoController');
+
+Route::resource('/contactDetails','ContactDetailsController');
+
+Route::resource('/clients','ClientsController');
+
+Route::resource('/homeIntro','HomeIntroController');
+
+// ===== unitech 
+
 Route::get('{anypath}','HomeController@index')->where( 'path', '([A-z\d-\/_.]+)? ');
 });

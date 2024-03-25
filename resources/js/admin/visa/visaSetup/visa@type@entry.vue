@@ -11,7 +11,7 @@
               <div class="btn-actions-pane-right text-capitalize">
                   <router-link to="/new@visa@type">
                     <v-btn
-                      elevation="2"
+                      elevation="2" 
                       outlined
                       rounded
                       small
@@ -27,7 +27,7 @@
                       small
                       color="primary"
                     > Register
-                    </v-btn>
+                    </v-btn> 
                   </router-link>
                   <v-btn @click="toggleDarkMode" color="primary" elevation="2" raised rounded small>
                     Dark Mode
@@ -118,7 +118,9 @@
               <v-data-table
                     :headers="headers"
                     :items="desserts"
-                    class="elevation-4"
+                    class="responsive-table sticky-header"
+                    fixed-header
+                    height="540px"
                     :single-select="singleSelect"
                     item-key="name"
                     show-select
@@ -164,6 +166,19 @@
   box-shadow: 1px;
 }
 
+  .responsive-table {
+    width: 100%; /* Use 100% width by default */
+    scrollbar-width: none;
+  }
+
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 600px) {
+    .responsive-table {
+      overflow-x: auto; /* Add horizontal scrollbar for small screens */
+      width: auto; /* Allow the table to expand beyond the viewport width */
+      scrollbar-width: none;
+    }
+  }
 </style>
   
 <script>
@@ -192,18 +207,19 @@ import 'datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css'
             align: 'left',
             sortable: false,
             value: 'name',
-            width: '120px'
+            width: '120px',
+            class: 'sticky-header grey lighten-3',
           },
-          { text: 'Sales', value: 'sales' , align: 'center',},
-          { text: 'Collection', value: 'collection' , align: 'center',},
-          { text: 'Purchase', value: 'purchase' , align: 'center',},
-          { text: 'Payment', value: 'payment' , align: 'center',},
-          { text: 'Expense', value: 'expense' , align: 'center',},
-          { text: 'Salary', value: 'salary' , align: 'center',},
-          { text: 'Credit', value: 'credit' , align: 'center',},
-          { text: 'Debit', value: 'debit' , align: 'center',},
-          { text: 'Profit', value: 'profit' , align: 'center',},
-          { text: 'Details', value: 'details' ,  width:'150px', align: 'center', },
+          { text: 'Sales', value: 'sales' , align: 'center', class: 'sticky-header grey lighten-3', },
+          { text: 'Collection', value: 'collection' , align: 'center', class: 'sticky-header grey lighten-3', },
+          { text: 'Purchase', value: 'purchase' , align: 'center',class: 'sticky-header grey lighten-3',},
+          { text: 'Payment', value: 'payment' , align: 'center',class: 'sticky-header grey lighten-3',},
+          { text: 'Expense', value: 'expense' , align: 'center',class: 'sticky-header grey lighten-3',},
+          { text: 'Salary', value: 'salary' , align: 'center',class: 'sticky-header grey lighten-3',},
+          { text: 'Credit', value: 'credit' , align: 'center',class: 'sticky-header grey lighten-3',},
+          { text: 'Debit', value: 'debit' , align: 'center',class: 'sticky-header grey lighten-3',},
+          { text: 'Profit', value: 'profit' , align: 'center',class: 'sticky-header grey lighten-3',},
+          { text: 'Details', value: 'details' ,  width:'140px', align: 'center', class: 'sticky-header grey lighten-3',},
         ],
         desserts: [
           {
@@ -312,6 +328,136 @@ import 'datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css'
           },
           {
             name: '2024-01-09',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
+            sales: 0,
+            collection: 0,
+            purchase: 0,
+            payment: 0,
+            expense: 0,
+            salary: 0,
+            credit: 0,
+            debit: 0,
+            profit: 0,
+            details:'',
+          },
+          {
+            name: '2024-01-10',
             sales: 0,
             collection: 0,
             purchase: 0,

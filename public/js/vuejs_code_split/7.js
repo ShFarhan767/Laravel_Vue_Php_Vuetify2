@@ -195,6 +195,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -215,48 +230,59 @@ __webpack_require__.r(__webpack_exports__);
         align: 'left',
         sortable: false,
         value: 'name',
-        width: '120px'
+        width: '120px',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Sales',
         value: 'sales',
-        align: 'center'
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Collection',
         value: 'collection',
-        align: 'center'
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Purchase',
         value: 'purchase',
-        align: 'center'
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Payment',
         value: 'payment',
-        align: 'center'
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Expense',
         value: 'expense',
-        align: 'center'
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Salary',
         value: 'salary',
-        align: 'center'
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Credit',
         value: 'credit',
-        align: 'center'
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Debit',
         value: 'debit',
-        align: 'center'
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Profit',
         value: 'profit',
-        align: 'center'
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }, {
         text: 'Details',
         value: 'details',
-        width: '150px',
-        align: 'center'
+        width: '140px',
+        align: 'center',
+        "class": 'sticky-header grey lighten-3'
       }],
       desserts: [{
         name: '2024-01-01',
@@ -356,6 +382,126 @@ __webpack_require__.r(__webpack_exports__);
         details: ''
       }, {
         name: '2024-01-09',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
+        sales: 0,
+        collection: 0,
+        purchase: 0,
+        payment: 0,
+        expense: 0,
+        salary: 0,
+        credit: 0,
+        debit: 0,
+        profit: 0,
+        details: ''
+      }, {
+        name: '2024-01-10',
         sales: 0,
         collection: 0,
         purchase: 0,
@@ -494,7 +640,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.Table[data-v-1c2546e8]{\r\n  background-color:azure;\r\n  box-shadow: 1px;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n.Table[data-v-1c2546e8]{\r\n  background-color:azure;\r\n  box-shadow: 1px;\n}\n.responsive-table[data-v-1c2546e8] {\r\n    width: 100%; /* Use 100% width by default */\r\n    scrollbar-width: none;\n}\r\n\r\n  /* Responsive styles for smaller screens */\n@media screen and (max-width: 600px) {\n.responsive-table[data-v-1c2546e8] {\r\n      overflow-x: auto; /* Add horizontal scrollbar for small screens */\r\n      width: auto; /* Allow the table to expand beyond the viewport width */\r\n      scrollbar-width: none;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -778,11 +924,13 @@ var render = function() {
           { staticClass: "Table" },
           [
             _c("v-data-table", {
-              staticClass: "elevation-4",
+              staticClass: "responsive-table sticky-header",
               staticStyle: { "margin-top": "50px" },
               attrs: {
                 headers: _vm.headers,
                 items: _vm.desserts,
+                "fixed-header": "",
+                height: "540px",
                 "single-select": _vm.singleSelect,
                 "item-key": "name",
                 "show-select": "",

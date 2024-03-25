@@ -818,7 +818,79 @@ component:()=>import(/*WCN:"queryCenter"*/'./admin/frontOffice/queryCenter/query
         path: '/active@shop@list',
         component: () => import(/* webpackChunkName: "active@shop@list" */'./admin/shopInformation/active@shop@list'),
     
-        },
+    },
+    
+
+
+
+
+    // ================= unitcech
+
+    {
+        path: '/menuItem',
+        component: () => import(/* webpackChunkName: "menuItems" */'./admin/unitech/menuItems'),
+    },
+
+    {
+        path: '/navLogos',
+        component: () => import(/* webpackChunkName: "navLogo" */'./admin/unitech/navLogo'),
+    },
+
+    {
+        path: '/sliders',
+        component: () => import(/* webpackChunkName: "slider" */'./admin/unitech/slider'),
+    },
+
+    {
+        path: '/serviceHeadings',
+        component: () => import(/* webpackChunkName: "serviceHeading" */'./admin/unitech/serviceHeading'),
+    },
+
+    {
+        path: '/serviceBoxs',
+        component: () => import(/* webpackChunkName: "serviceBox" */'./admin/unitech/serviceBox'),
+    },
+
+    {
+        path: '/blogCards',
+        component: () => import(/* webpackChunkName: "blogCard" */'./admin/unitech/blogCard'),
+    },
+
+    {
+        path: '/galleryCards',
+        component: () => import(/* webpackChunkName: "galleryCard" */'./admin/unitech/galleryCard'),
+    },
+
+    {
+        path: '/productCardss',
+        component: () => import(/* webpackChunkName: "productCards" */'./admin/unitech/productCards'),
+
+    },
+
+    {
+        path: '/serviceInfos',
+        component: () => import(/* webpackChunkName: "serviceInfo" */'./admin/unitech/serviceInfo'),
+    },
+
+    {
+        path: '/contactDetailss',
+        component: () => import(/* webpackChunkName: "contactDetails" */'./admin/unitech/contactDetails'),
+    },
+
+    {
+        path: '/clientss',
+        component: () => import(/* webpackChunkName: "clients" */'./admin/unitech/clients'),
+
+    },
+
+    {
+        path: '/homeIntros',
+        component: () => import(/* webpackChunkName: "homeIntro" */'./admin/unitech/homeIntro'),
+    },
+    // ================= //unitcech 
+    
+    
+    
 // ===================== / system  ===================
 // =========================================================
 

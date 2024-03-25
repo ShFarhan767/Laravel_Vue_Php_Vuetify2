@@ -20,7 +20,7 @@
   <link href="{{ asset('dashboard/style.css') }}" rel="stylesheet">
   <link href="{{ asset('dashboard/customstyle.css') }}" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.1.0/dist/vue-multiselect.min.css">
-
+  
 <link rel="shortcut icon" type="image/x-icon" href="{{url('images/favicon.png')}}">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.js" defer></script>

@@ -12,7 +12,7 @@
                               </div>
                          </div>
                         <div class="form-group row">
-                            <label for="userName" class="col-md-4 col-form-label text-md-right">Shop Code </label>
+                            <label for="userName" class="col-md-4 col-form-label text-md-right">Shop Code mmm </label>
                                   <div class="col-md-6">
                                   <input id="userName" v-model="form.shopSiralId" type="text" class="form-control"   name= "shopSiralId"  >
                                   

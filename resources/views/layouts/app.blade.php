@@ -8,7 +8,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title><%= process.env.APP_NAME %></title>
+    <!-- <title><%= process.env.APP_NAME %></title> -->
+    <title>Doofaz IT</title>
 
     <!-- Scripts -->
     <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
@@ -34,11 +35,11 @@
     </script>
 <style>
     .im{
-        background-image: url('/images/travel.JPG');
-background-size: cover;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
+        background-image: url('https://oceanjar-new.s3.ap-south-1.amazonaws.com/Thailandcamp2_ac09d9a330.jpeg');
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        height: 100%;
+        font-family: 'Numans', sans-serif;
     }
     .container {
         height: 100%;
