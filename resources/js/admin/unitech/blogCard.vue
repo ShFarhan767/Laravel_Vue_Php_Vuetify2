@@ -7,6 +7,7 @@
                     <h4 id="productName">Entry</h4>
                 </div>
             </div>
+        
 
             <form action="" method="post" @submit.prevent="blogCardEntry()">
                 <div class="product-entry">

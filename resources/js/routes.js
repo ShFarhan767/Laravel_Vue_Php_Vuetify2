@@ -887,6 +887,26 @@ component:()=>import(/*WCN:"queryCenter"*/'./admin/frontOffice/queryCenter/query
         path: '/homeIntros',
         component: () => import(/* webpackChunkName: "homeIntro" */'./admin/unitech/homeIntro'),
     },
+
+    {
+        path: '/aboutUss',
+        component: () => import(/* webpackChunkName: "aboutUs" */'./admin/unitech/aboutUs'),
+    },
+
+    {
+        path: '/aboutBoxs',
+        component: () => import(/* webpackChunkName: "aboutBox" */'./admin/unitech/aboutBox'),
+    },
+
+    {
+        path: '/aboutWorkInfos',
+        component: () => import(/* webpackChunkName: "aboutWorkInfo" */'./admin/unitech/aboutWorkInfo'),
+    },
+
+    {
+        path: '/aboutCards',
+        component: () => import(/* webpackChunkName: "aboutCard" */'./admin/unitech/aboutCard'),
+    },
     // ================= //unitcech 
     
     

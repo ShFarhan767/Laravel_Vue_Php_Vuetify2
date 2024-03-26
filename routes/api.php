@@ -225,6 +225,14 @@ Route::resource('/clients','ClientsController');
 
 Route::resource('/homeIntro','HomeIntroController');
 
+Route::resource('/aboutUs','AboutUsController');
+
+Route::resource('/aboutBox','AboutBoxController');
+
+Route::resource('/aboutWorkInfo','AboutWorkInfoController');
+
+Route::resource('/aboutCard','AboutCardController');
+
 // ===== unitech 
 
 Route::get('{anypath}','HomeController@index')->where( 'path', '([A-z\d-\/_.]+)? ');
